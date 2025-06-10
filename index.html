@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ferret - сервис по подбору, покупке и упаковке подарков на заказ. Мы найдём, соберём и красиво упакуем идеальный презент для любого случая.">
+    <meta name="keywords" content="подарки, подбор подарков, упаковка подарков, доставка подарков, подарки на заказ">
+    <title>Ferret - Подарки, которые заставят улыбнуться</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome для иконок -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка (Header) -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <img src="ferret-logo.svg" alt="Ferret Logo" class="logo__img">
+                    <span class="logo__text">Ferret</span>
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="#how-it-works" class="nav__link">Как это работает</a></li>
+                        <li class="nav__item"><a href="#examples" class="nav__link">Примеры</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Услуги</a></li>
+                        <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="btn btn--primary header__btn">Заказать подарок</button>
+                <button class="burger" aria-label="Открыть меню">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero-секция -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero__inner">
+                <div class="hero__content">
+                    <h1 class="hero__title">Подарок, который заставит улыбнуться</h1>
+                    <p class="hero__subtitle">Мы найдём, соберём и красиво упакуем идеальный презент для любого случая.</p>
+                    <button class="btn btn--large btn--primary hero__btn">Начать подбор</button>
+                </div>
+                <div class="hero__image">
+                    <img src="assets/3d-render2.png" alt="Ferret Gift Service" class="hero__img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Как это работает -->
+    <section class="section how-it-works" id="how-it-works">
+        <div class="container">
+            <h2 class="section__title">Как это работает</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step__icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3 class="step__title">Выбор получателя</h3>
+                    <p class="step__text">Расскажите нам, для кого предназначен подарок и по какому поводу</p>
+                </div>
+                <div class="step">
+                    <div class="step__icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3 class="step__title">Подбор подарка</h3>
+                    <p class="step__text">Наши эксперты подберут идеальный подарок, учитывая ваши пожелания и бюджет</p>
+                </div>
+                <div class="step">
+                    <div class="step__icon">
+                        <i class="fas fa-box-open"></i>
+                    </div>
+                    <h3 class="step__title">Упаковка</h3>
+                    <p class="step__text">Красиво упакуем подарок в стильную упаковку с персональной открыткой</p>
+                </div>
+                <div class="step">
+                    <div class="step__icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3 class="step__title">Доставка</h3>
+                    <p class="step__text">Доставим подарок в удобное для вас время и место</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги / Подарки по категориям -->
+    <section class="section services" id="services">
+        <div class="container">
+            <h2 class="section__title">Подарки по категориям</h2>
+            <div class="categories">
+                <div class="category">
+                    <div class="category__image">
+                        <img src="assets/categories/categories-frend.jpg" alt="Подарки для друзей" class="category__img">
+                    </div>
+                    <h3 class="category__title">Для друзей</h3>
+                    <p class="category__text">Оригинальные подарки для ваших друзей на любой праздник</p>
+                    <a href="#" class="category__link">Подобрать</a>
+                </div>
+                <div class="category">
+                    <div class="category__image">
+                        <img src="assets/categories/categories-parents2.png" alt="Подарки для родителей" class="category__img">
+                    </div>
+                    <h3 class="category__title">Для родителей</h3>
+                    <p class="category__text">Трогательные и полезные подарки для самых близких людей</p>
+                    <a href="#" class="category__link">Подобрать</a>
+                </div>
+                <div class="category">
+                    <div class="category__image">
+                        <img src="assets/categories/categories-work.jpg" alt="Подарки для коллег" class="category__img">
+                    </div>
+                    <h3 class="category__title">Для коллег</h3>
+                    <p class="category__text">Стильные и практичные подарки для рабочего окружения</p>
+                    <a href="#" class="category__link">Подобрать</a>
+                </div>
+                <div class="category">
+                    <div class="category__image">
+                        <img src="assets/categories/categories-children.png" alt="Подарки для детей" class="category__img">
+                    </div>
+                    <h3 class="category__title">Для детей</h3>
+                    <p class="category__text">Веселые и развивающие подарки для детей разных возрастов</p>
+                    <a href="#" class="category__link">Подобрать</a>
+                </div>
+                <div class="category">
+                    <div class="category__image">
+                        <img src="assets/categories/categories-love.jpg" alt="Подарки для второй половинки" class="category__img">
+                    </div>
+                    <h3 class="category__title">Для второй половинки</h3>
+                    <p class="category__text">Романтичные и запоминающиеся подарки для любимых</p>
+                    <a href="#" class="category__link">Подобрать</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Примеры подарков -->
+    <section class="section examples" id="examples">
+        <div class="container">
+            <h2 class="section__title">Примеры подарков</h2>
+            <div class="examples__slider">
+                <div class="example">
+                    <div class="example__image">
+                        <img src="https://via.placeholder.com/350x250" alt="Подарочный набор 'Уютный вечер'" class="example__img">
+                    </div>
+                    <h3 class="example__title">Подарочный набор "Уютный вечер"</h3>
+                    <p class="example__text">Набор для создания атмосферы уюта: ароматическая свеча, плед, чай и книга</p>
+                    <button class="btn btn--secondary example__btn">Посмотреть детали</button>
+                </div>
+                <div class="example">
+                    <div class="example__image">
+                        <img src="https://via.placeholder.com/350x250" alt="Подарочный набор 'Гурман'" class="example__img">
+                    </div>
+                    <h3 class="example__title">Подарочный набор "Гурман"</h3>
+                    <p class="example__text">Набор для ценителей вкусной еды: вино, сыры, шоколад и орехи</p>
+                    <button class="btn btn--secondary example__btn">Посмотреть детали</button>
+                </div>
+                <div class="example">
+                    <div class="example__image">
+                        <img src="https://via.placeholder.com/350x250" alt="Подарочный набор 'Путешественник'" class="example__img">
+                    </div>
+                    <h3 class="example__title">Подарочный набор "Путешественник"</h3>
+                    <p class="example__text">Набор для любителей путешествий: дорожный органайзер, подушка, маска для сна</p>
+                    <button class="btn btn--secondary example__btn">Посмотреть детали</button>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-control slider-control--prev" aria-label="Предыдущий слайд">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="slider-dots">
+                    <span class="slider-dot slider-dot--active"></span>
+                    <span class="slider-dot"></span>
+                    <span class="slider-dot"></span>
+                </div>
+                <button class="slider-control slider-control--next" aria-label="Следующий слайд">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Отзывы клиентов -->
+    <section class="section reviews" id="reviews">
+        <div class="container">
+            <h2 class="section__title">Отзывы клиентов</h2>
+            <div class="reviews__slider">
+                <div class="review">
+                    <div class="review__header">
+                        <div class="review__avatar">
+                            <img src="https://via.placeholder.com/60x60" alt="Анна М." class="review__img">
+                        </div>
+                        <div class="review__info">
+                            <h3 class="review__name">Анна М.</h3>
+                            <div class="review__rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review__text">"Заказывала подарок для мамы на юбилей. Ребята подобрали идеальный набор, учли все пожелания. Упаковка выше всяких похвал! Мама была в восторге. Обязательно буду заказывать ещё!"</p>
+                </div>
+                <div class="review">
+                    <div class="review__header">
+                        <div class="review__avatar">
+                            <img src="https://via.placeholder.com/60x60" alt="Дмитрий К." class="review__img">
+                        </div>
+                        <div class="review__info">
+                            <h3 class="review__name">Дмитрий К.</h3>
+                            <div class="review__rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review__text">"Не знал, что подарить девушке на годовщину. Ferret спас ситуацию! Подобрали отличный романтический набор. Доставили вовремя, всё красиво упаковано. Девушка была приятно удивлена!"</p>
+                </div>
+                <div class="review">
+                    <div class="review__header">
+                        <div class="review__avatar">
+                            <img src="https://via.placeholder.com/60x60" alt="Елена В." class="review__img">
+                        </div>
+                        <div class="review__info">
+                            <h3 class="review__name">Елена В.</h3>
+                            <div class="review__rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review__text">"Заказывала корпоративные подарки для коллег на Новый год. Сервис отличный, всё сделали быстро и качественно. Коллеги оценили индивидуальный подход к каждому подарку. Рекомендую!"</p>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-control slider-control--prev" aria-label="Предыдущий отзыв">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="slider-dots">
+                    <span class="slider-dot slider-dot--active"></span>
+                    <span class="slider-dot"></span>
+                    <span class="slider-dot"></span>
+                </div>
+                <button class="slider-control slider-control--next" aria-label="Следующий отзыв">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Форма заказа -->
+    <section class="section order" id="order">
+        <div class="container">
+            <h2 class="section__title">Заказать подарок</h2>
+            <form class="order-form" id="orderForm">
+                <div class="form-group">
+                    <label for="name" class="form-label">Ваше имя</label>
+                    <input type="text" id="name" name="name" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" name="email" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="recipient-gender" class="form-label">Пол получателя</label>
+                    <select id="recipient-gender" name="recipient-gender" class="form-select">
+                        <option value="">Выберите пол</option>
+                        <option value="male">Мужской</option>
+                        <option value="female">Женский</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="recipient-age" class="form-label">Возраст получателя</label>
+                    <input type="number" id="recipient-age" name="recipient-age" class="form-input" min="1" max="120">
+                </div>
+                <div class="form-group">
+                    <label for="interests" class="form-label">Интересы получателя</label>
+                    <textarea id="interests" name="interests" class="form-textarea" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="budget" class="form-label">Бюджет (₽)</label>
+                    <div class="budget-slider">
+                        <input type="range" id="budget" name="budget" class="form-range" min="1000" max="50000" step="1000" value="5000">
+                        <div class="budget-value">5 000 ₽</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="wishes" class="form-label">Дополнительные пожелания</label>
+                    <textarea id="wishes" name="wishes" class="form-textarea" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn--large btn--primary order-form__btn">Оформить заказ</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__col">
+                    <div class="logo footer__logo">
+                    <img src="ferret-logo.svg" alt="Ferret Logo" class="logo__img">
+                    <span class="logo__text">Ferret</span>
+                </div>
+                    <p class="footer__text">Сервис по подбору, покупке и упаковке подарков на заказ. Мы найдём, соберём и красиво упакуем идеальный презент для любого случая.</p>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Контакты</h3>
+                    <ul class="footer__contacts">
+                        <li class="footer__contact">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+79841569514" class="footer__link">+7 (984) 156-95-14</a>
+                        </li>
+                        <li class="footer__contact">
+                            <i class="fas fa-envelope"></i>
+                            <a href="s.violetta2112@gmail.com" class="footer__link">s.violetta2112@gmail.com</a>
+                        </li>
+                        <li class="footer__contact">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <address class="footer__address">г. Владивосток, ул. Нейбута, д. 2а к.2</address>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Навигация</h3>
+                    <ul class="footer__nav">
+                        <li class="footer__nav-item"><a href="#" class="footer__link">Главная</a></li>
+                        <li class="footer__nav-item"><a href="#how-it-works" class="footer__link">Как это работает</a></li>
+                        <li class="footer__nav-item"><a href="#examples" class="footer__link">Примеры</a></li>
+                        <li class="footer__nav-item"><a href="#services" class="footer__link">Услуги</a></li>
+                        <li class="footer__nav-item"><a href="#reviews" class="footer__link">Отзывы</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Социальные сети</h3>
+                    <div class="social">
+                        <a href="https://vk.com/sentirerr" class="social__link" aria-label="Мы ВКонтакте">
+                            <i class="fab fa-vk"></i>
+                        </a>
+                        <a href="https://t.me/teranlj" class="social__link" aria-label="Мы в Telegram">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" class="social__link" aria-label="Мы в Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/" class="social__link" aria-label="Мы в Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2025 SH Studio. Все права защищены.</p>
+                <div class="footer__links">
+                    <a href="#" class="footer__policy-link">Политика конфиденциальности</a>
+                    <a href="#" class="footer__policy-link">Условия использования</a>
+                </div>
+            </div>
+        </div>
+        <button class="scroll-top" aria-label="Наверх">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+    </footer>
+
+    <!-- Модальное окно успешной отправки формы -->
+    <div class="modal" id="successModal">
+        <div class="modal__content">
+            <button class="modal__close" aria-label="Закрыть">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal__icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3 class="modal__title">Спасибо за заказ!</h3>
+            <p class="modal__text">Ваша заявка успешно отправлена. Наш менеджер свяжется с вами в ближайшее время для уточнения деталей.</p>
+            <button class="btn btn--primary modal__btn">Закрыть</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
